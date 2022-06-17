@@ -9,8 +9,8 @@ Check out website for quick view [FuY Café](https://mrshadfm.github.io/FuY-Cafe
 <div dir="rtl">
 
 ### درباره 
-این یک پروژه توسعه وب است که برای پروژه دانشگاه می باشد و با HTML، CSS و جاوا اسکریپت ایجاد شده است.
-درباره یک سایت کافه فارسی به نام **FuY Café** است.
+این یک پروژه توسعه وب است که برای پروژه دانشگاه می باشد و در آن از HTML، CSS و جاوا اسکریپت استفاده شده است.
+درباره یک سایت کافه فارسی به نام  **FuY Café**.
 <br>
 برای دیدن سایت کلیک کنید[FuY Café](https://mrshadfm.github.io/FuY-Cafe-Website/).
 </div>

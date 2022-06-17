@@ -744,7 +744,7 @@ label{
 
 .menu-subtitle {
   text-transform: uppercase;
-  font-family: SpartanLimport;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:#7a941c;
   font-size: 30px;
 }

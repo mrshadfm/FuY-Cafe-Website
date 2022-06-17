@@ -12,11 +12,10 @@ It is about a Persian Café site and called as **FuY Café**.
 </div>
 <br>
 Check out website for quick view. [FuY Café](https://mrshadfm.github.io/FuY-Cafe-Website/)
+برای دیدن سایت کلیک کنید.
 <br>
-<div dir="rtl">
-برای دیدن سایت کلیک کنید. [FuY Café](https://mrshadfm.github.io/FuY-Cafe-Website/)
-</div>
-<br><br>
+
+<br>
 
 ### Screenshot/عکس از فضای داخلی سایت
 ![Home Page Screenshot](/Screenshot%20(1911).png)

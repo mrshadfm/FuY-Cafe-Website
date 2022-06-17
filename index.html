@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FuY Café by mrshadfm</title>
+    <link rel="icon" href="svg/pngegg (16).png" type="image/icon type">
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      window.onscroll = function() { Scroll()};
+      function Scroll() {
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+          document.getElementById("id-navi").className = "navi-slidedown";
+        }
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+          document.getElementById("id-about-scroll").className = "scroll-about";
+        }
+      }
+
+      function menuButtonSnacks(){
+        document.getElementById("id-drinks").className = "menu-button-off";
+        document.getElementById("id-snacks").className = "menu-button-on";
+        document.getElementById("id-menu-snacks").className = "menu-snacks-on";
+        document.getElementById("id-menu-drinks").className = "menu-drinks-off";
+      }
+      function menuButtonDrinks(){
+        document.getElementById("id-drinks").className = "menu-button-on";
+        document.getElementById("id-snacks").className = "menu-button-off";
+        document.getElementById("id-menu-snacks").className = "menu-snacks-off";
+        document.getElementById("id-menu-drinks").className = "menu-drinks-on";
+      }
+
+
+
+    </script>
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="main">
+        <a class="logo" href="#"><img src="svg/mrshadfm.svg" height="60px"></a>
+        <div class="fix" >
+          <a class="a1" href="#"><strong>خانه</strong></a>
+          <a class="a1" href="#id-about"><strong>درباره ما</strong></a>
+          <a class="a1" href="#id-menu"><strong>خوشمزه ها</strong></a>
+          <a class="a1" href="#id-nazar"><strong>نظرات شما</strong></a>
+          <a class="a1" href="#id-contact"><strong>ارتباط با ما</strong></a>
+        </div>
+      </section>
+      <div class="fix-background" id="id-navi"></div>
+      <div class="banner"><br><br><br><br>
+        <h1 style="font-size:100px" class="banner-title">FuY Café</h1>
+        <h3 class="banner-subtitle">!ما منتظرت هستیم</h3>
+      </div>
+      <div class="banner-bottom"><a href="#id-skills"><img src="svg/down-arrow.svg"></a></div>
+    </header>
+      
+
+  
+
+
+    
+
+    <!-- about-section -->
+<div class="about">
+  <br>
+    <br>
+    <br>
+    <br>
+    <section class="about-section-center-clearfix" style="display: inline; background-color: darkgrey;" id="id-about">
+      <!-- <div class="section-center clearfix"> -->
+      <!-- first column  -->
+      
+     <!-- second column -->
+     <center><article class="about-info-1"></center>
+        <!-- section title -->
+        <center> <div class="about-scroll" id="id-about-scroll" ></center>
+        <!-- <img src="preloader.gif" height="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <br><br>
+      <h1 class="about"><center><img src="svg/mrshadfm.svg" height="210px"></center></h1>
+       <h2 class="about"><center>درباره ما</center></h2>
+        <!--end section title -->
+        <br>
+       <p class="about" style="text-align:center">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای  زیادی در شصت و سه درصد گذشته، حال و دستاوردهای اصلی و جوابگوی سوالات است
+        
+      </p>
+      <br>
+           <p class="about"style="text-align:center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک ان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و ست. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته
+           </p>
+            <a href="#id-contact"class="main-btn">ارتباط با ما</a><br>
+<br><br>
+<br>
+          <div class="main-btn-back"> </div>
+        </div>
+      </article>
+
+
+      <div style="clear: both;"></div>
+    </section>
+  
+   
+ 
+  <!--Menu-->
+  <div style="background-color:#C2C282; z-index: -1;">
+  <section class="menu-template" id="id-menu">
+    <h1 class="menu-title">خوشمزه ها</h1><br>
+    <center><h3 class="menu-subtitle"><u>our&nbsp;&nbsp;menu</u></h3></center>
+</section><br><br>
+</header>
+
+<section class="menu-header-container">
+  <div class="menu-hr-container"><hr class="menu-hr"></div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="id-drinks" class="menu-button-on" onclick="menuButtonDrinks()"><img src="svg/hot-drinks (1).png" class="menu-circle-image"></button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="id-snacks" class="menu-button-off" onclick="menuButtonSnacks()"><img src="svg/snack.png" class="menu-circle-image"></button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="menu-hr-container"><hr class="menu-hr"></div>
+</section>
+
+<!-- drinks menu -->
+<div class="menu-drinks-on" id="id-menu-drinks">
+
+<section class="menu" style="display: inline;">
+    <article class="menu-section">
+      <!-- first column -->
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/1.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">آمریکانو</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- second column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/14.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">قهوه داغ داغ</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- third column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/2.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">لته</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- fourth column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/12.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">لته یخ</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div style="clear: both;"></div>
+    <br>
+  </section>
+  <section class="menu" style="display: inline;">
+    <article class="menu-section">
+      <!-- first column -->
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/15.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">شات</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- second column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/16.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">دمنوش</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- third column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/17.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">دمنوش آلبالو</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- fourth column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/18.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">قهوه فیلتر شده</h3>
+              <br>
+              <h4 class="menu-text-title">قیمت به ريال </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div style="clear: both;"></div>
+    <br>
+  </section>
+  <br>
+
+</div>
+<!-- drinks menu ending -->
+
+<!-- snacks menu -->
+<div class="menu-snacks-off" id="id-menu-snacks">
+
+  <section class="menu" style="display: inline;">
+      <article class="menu-section">
+        <!-- first column -->
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/29.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">پیتزا</h3>
+                <br>
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- second column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/21.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">سیب زمینی</h3>
+                <br>
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- third column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/22.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">برگر</h3>
+                <br>
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- fourth column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/24.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">ساندویچ</h3>
+                <br>
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <div style="clear: both;"></div>
+      <br>
+    </section>
+    <section class="menu" style="display: inline;">
+      <article class="menu-section">
+        <!-- first column -->
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/25.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">مخصوص عادلی</h3>
+                <br>
+                
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- second column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/26.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">وافل</h3>
+                <br>
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- third column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/27.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">کوکی</h3>
+               <br>
+                <h4 class="menu-text-title">قیمت به ريال </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- fourth column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/20.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">صبحانه</h3>
+                <br>
+                <h4 class="menu-text-title">قیمت به ريال</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <div style="clear: both;"></div>
+      <br>
+    </section>
+    <br>
+  
+  </div>
+
+  <!-- snacks menu ending -->
+
+<!--Response-->
+  <div class="back">
+    <section class="about-section-center-clearfix" style="display: inline;">
+
+      <article class="about-img">
+        
+        <h3 class="response-title"id="id-nazar"><center>نظر شما</center></h3>
+      <br>
+      <form action="#">
+        <label for="fname">نام و نام خانوادگی</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="مهرشاد فرهودمقدم"
+          required="Name"
+        /><label for="City">شماره تماس</label>
+        <input type="text" id="city" name="cityname" placeholder="+989124****85" required="City Name" />
+
+        <label for="mail">ایمیل</label>
+        <input
+          type="email"
+          id="email"
+          name="mail"
+          placeholder="mehrshadfm1@gmail.com"
+          required="Email"
+        />
+
+        
+        <label for="subject">شما به ما امتیاز بدید</label><br>
+        <fieldset class="rating">
+          <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="خیلی خوب - 5 "></label>
+         
+          <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="خوب - 4 "></label>
+        
+          <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="متوسط - 3 "></label>
+         
+          <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="بد - 2 "></label>
+          
+          <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="خیلی بد - 1 star"></label>
+          
+      </fieldset>
+         <br><br>
+         <br>
+        <label for="نظرت">اینجا برامون بنویسید</label>
+        <textarea
+          id="feedback"
+             name="feedback"
+          placeholder="خوش گذشت:)"
+          style="height:120px"
+        ></textarea>
+        
+
+      <p dir="rtl"align="left"><input type="ثبت" value="ثبت"></p>
+      </form>
+      </article>
+      <!-- second column -->
+      <article class="about-info-slider">
+        <h3 class="response-title"><center><br></center></h3>
+        <!--end section title -->
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <br>
+            <p dir="rtl"align="right" class="p1">“لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد.”</p>
+            
+            <img class="slider-img1" src="people/1.jpg">
+            <h3 class="slider-name1">مهزیار اوجانی</h3>
+            <br><br>
+            <hr class="slides-hr">
+            <br>
+            <div class="social">
+            
+            </div>
+            <br><br>
+            <p dir="rtl"align="right" class="p2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع.</p>
+            
+            <img class="slider-img2" src="people/5.jpg">
+            <h3 class="slider-name2">آرمین غلامی</h3>
+            <br><br>
+            <hr class="slides-hr1">
+            <br><br><br><br>
+            <div class="social2">
+            
+            </div>
+          </div>
+          
+          <div class="mySlides fade">
+            <br>
+            <p dir="rtl"align="right" class="p1">ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرنچنان که لازم است و ابزارهآنچنان که لازم است و ابزارهای کاربردی می باشد.شاید عاشقش شدم کاش زود تر باز برگردم اونجااستفاده از طراحانکه روزنامه و استفاده از طراحان گرافیک است. چاپگرها و متون بللازم است و ابزارهآنچنان که لازم اکه روزنامه و مجله در ستون و سطرآنچنان که متون بللازم است و ابزارهآنچنان که لازم اکه روزنامه و مجله در ستون و سطرآنچنان </p>
+            <br>
+            <img class="slider-img1" src="people/2.png">
+            <h3 class="slider-name1">الی صادقی</h3>
+            <br><br>
+            <hr class="slides-hr">
+            <br>
+            <div class="social">
+              
+            </div>
+            <br><br>
+            <p dir="rtl"align="right" class="p2">“ پر از خاطره پر از داستان پر از آینده ”</p>
+           
+            <img class="slider-img2" src="people/4.jpg">
+            <h3 class="slider-name2">مهرشاد هستم</h3>
+            <br><br>
+            <hr class="slides-hr1">
+            <br><br><br>
+            <div class="social2">
+              
+            </div>
+          </div>
+          
+          <div class="mySlides fade">
+            <br>
+            <p dir="rtl"align="right" class="p1">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با. </p>
+            
+            <img class="slider-img1" src="people/3.jpg">
+            <h3 class="slider-name1">مهدی مهدی زاده</h3>
+            <br><br>
+            <hr class="slides-hr">
+            <br>
+            <div class="social">
+             
+            </div>
+            <br><br>
+            <p dir="rtl"align="right" class="p2">“ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. ”</p>
+            
+            <img class="slider-img2" src="people/7.jpeg">
+            <h3 class="slider-name2">علی علیخانی</h3>
+            <br><br>
+            <hr class="slides-hr1">
+            <br><br><br><br>
+            <div class="social2">
+              
+            </div>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          </div>
+          
+          
+          <script>
+         let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 6500); // Change image every 6.5 seconds
+          }
+          </script>
+      </article>
+      <div style="clear: both;"></div>
+    </section>
+  </div>
+  <!-- Contact -->
+  <section class="contact-template" id="id-contact">
+    <h1 class="contact-title">ارتباط با ما</h1>
+    <br><center><h3 class="menu-subtitle"><u>our&nbsp;&nbsp;contact</u></h3></center><br>
+  </section>
+
+  <div class="contact">
+    <section class="about-section-center-clearfix" style="display: inline; ">
+
+      <article class="contact-map">
+      <!--left column-->
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d441.07708924996723!2d50.9887797426035!3d35.8059280742561!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d35.806135399999995!2d50.9891193!5e0!3m2!1sen!2s!4v1655217312046!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+      class="contact-iframe"></iframe>
+      <br>
+            <div class="opening-container">
+              <div class="address-text">
+                <h4><strong><center>آدرس</center></strong></h4>
+                  <p>
+                   <center>کرج-هفت تیر-بین چها راه کارخانه قند و مصباح-انتهای کوی عادلی-سمت چپ</center>
+                </p>
+                
+                <h4><strong><center>شماره تماس</center></strong></h4>
+                <p><center>02632214024</center></p>
+                <p><center>02632214023</center></p>
+              </div>
+            </div>
+      </article>
+      <!-- right column -->
+      <article class="contact-img">
+       <!-- second column -->
+        <br>
+        <!-- section title -->
+        <div class="opening-container">
+          <img src="Struct.jpg" alt="Snow" style="width:130%;">
+          <div class="opening-text ">
+            <h3 dir="rtl">ساعات&nbsp;&nbsp;کاری</h3>
+              <br>
+              <br><br>
+              <p dir="rtl" align="right"><br>
+                <strong>شنبه تا چهارشنبه</strong>
+                <br>
+                7:00 شب 9:00 صبح
+                <br>
+                <strong>جمعه و پنج شنبه</strong>
+                <br>
+                10:00 شب 11:00 صبح
+                <br>
+                <br>
+              </p>
+          </div>
+        </div>
+        
+
+        <!--end section title -->
+      </article>
+      <div style="clear: both;"></div>
+    </section>
+    <div class="content-divider"></div> <section class="skills" id="id-skills" style="background-color:#c2c28200">
+      <!-- single skill -->
+      <article class="skill1">
+        <center><img src="svg/coffee-bag.svg" height="60px"></center>
+        <h3 class="skill-title">طبیعی</h3>
+        <p class="skill-text">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+        </p>
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill2">
+        <center><img src="svg/spa.svg" height="60px"></center>
+        <h3 class="skill-title">ریلکسیشن</h3>
+        <p class="skill-text">
+          ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و مت
+        </p>
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill1">
+        <center><img src="svg/ecology-and-environment.svg" height="60px"></center>
+        <h3 class="skill-title">انرژی زیاد</h3>
+        <p class="skill-text">
+          ز صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگره.
+        </p>
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill2">
+        <center><img src="svg/cook.svg" height="60px"></center>
+        <h3 class="skill-title">غذاهای خانگی</h3>
+        <p class="skill-text">
+          م ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراح
+        </p>
+    
+    </article>
+    <!--end single skill -->
+    </section>
+    
+    <center>
+    <div class="contact-social">
+        <a class="contact-social-icons" href="#"><img src="svg/facebook.svg" weight="25" title="facebook" height="25"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/instagram.svg" weight="25" title="instagram" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/google.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/linkedin.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/whatsapp.svg" weight="25" title="whatsapp" height="25"></a> 
+    </div><br>
+    <p class="fontsettings">Copyleft	© 2022 | <a class="colorcover-link" href="#">FuY | mrshadfm</a></p><br><br>
+  </div></center>
+  </body>
+</html>

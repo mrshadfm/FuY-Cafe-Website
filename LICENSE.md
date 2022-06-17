@@ -1,2 +1,2 @@
 
-Copyright (C) 2022 مِه
+Copyleft (ɔ) 2022 mrshadfm

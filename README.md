@@ -11,7 +11,7 @@ It is about a Persian Café site and called as **FuY Café**.
 درباره یک سایت کافه فارسی به نام **FuY Café** است.
 </div>
 <br>
-Check out website for quick view. [FuY Café](https://mrshadfm.github.io/FuY-Cafe-Website/)
+Check out website for quick view [FuY Café](https://mrshadfm.github.io/FuY-Cafe-Website/).
 <br>
 برای دیدن سایت کلیک کنید
 <br>
@@ -25,6 +25,7 @@ Check out website for quick view. [FuY Café](https://mrshadfm.github.io/FuY-Caf
 ![our contact Screenshot](/Screenshot%20(1916).png)
 ![End Page Screenshot](/Screenshot%20(1917).png)
 © 2022 GitHub, Inc.
+Terms
 <br>
 🄯 2022 FuY, Inc.
 Terms

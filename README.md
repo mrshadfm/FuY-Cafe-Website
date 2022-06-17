@@ -22,7 +22,7 @@ Check out website for quick view [FuY Café](https://mrshadfm.github.io/FuY-Cafe
 
 
 
-### Screenshot/عکس از فضای داخلی سایت
+### Website Screenshots/اسکرین شات های وبسایت
 ![Home Page Screenshot](/Screenshot%20(1911).png)
 ![About Us ScreenShot](/Screenshot%20(1912).png)
 ![our menu Screenshot](/Screenshot%20(1914).png)
